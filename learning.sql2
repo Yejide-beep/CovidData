@@ -1,0 +1,6 @@
+/*Let's get the data of customers in these countries: Ghana, Nigeria, China, Australia, Mexico, Canada*/
+
+%%sql SELECT *
+FROM country
+WHERE country IN ('Nigeria', 'India', 'China', 'Australia', 'Mexico', 'Canada')
+LIMIT 10
